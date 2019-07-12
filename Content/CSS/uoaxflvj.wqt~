@@ -1,0 +1,48 @@
+﻿*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul li {
+    text-decoration: none;
+    color: #026b97;
+}
+#header {
+    width: 100%;
+    height: 66px;
+    background-color: #026b97;
+    position:relative;
+}
+#logo {
+    background: url('../Images/mshopkeeper_logo.png') no-repeat #026b97;
+    height: 66px;
+    background-position: 20px;
+}
+
+#footer {
+    height: 132px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+#footerTop {
+    height: 84px;
+    width: 100%;
+}
+#footerBot {
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+    background: #026b97;
+    text-align: center;
+    color: white;
+    font-family: Tahoma,sans-serif !important;
+    font-size: 13px;
+}
+
+#footerBot a{
+    color: white;
+}

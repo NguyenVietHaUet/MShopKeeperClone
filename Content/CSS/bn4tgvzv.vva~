@@ -1,0 +1,189 @@
+﻿* {
+    font-family: 'Roboto',Tahoma,sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
+#header {
+    width: 100%;
+    height: 66px;
+    background-color: #026b97;
+    position:relative;
+}
+#logo {
+    background: url('../Images/mshopkeeper_logo.png') no-repeat #026b97;
+    height: 66px;
+    background-position: 20px;
+}
+
+#footer {
+    position: absolute;
+    width:100%;
+    height: 141px;
+    bottom: 0px;
+}
+#footerTop {
+    height: 84px;
+    width: 100%;
+}
+#footerBot {
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+    background: #026b97;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+#footerBot a{
+    font-size: 12px;
+    color: white;
+}
+.link {
+    color: #026b97;
+}
+
+#support {
+    line-height: 16px;
+    position: relative;
+    display: flex;
+    font-weight:400;
+    width: 600px;
+    margin: 8px auto;
+    padding-top: 10px; font-size:13px;
+}
+
+#support > section {
+    margin-top: 12px;
+    margin-right: 8px;
+}
+#advisory {
+    width: 240px;
+    height: 20px;
+    line-height: 20px;
+    background: url('../Images/Support1.png') no-repeat;
+    background-position: left center;
+}
+
+#mail {
+    width: 194px;
+    height: 20px;
+    line-height: 20px;
+    background: url('../Images/mail.png') no-repeat;
+    background-position: left center;
+}
+
+#guide {
+    margin-right: 0 !important;
+    margin-left: 12px;
+    width: 138px;
+    height: 20px;
+    line-height: 20px;
+    background: url('../Images/ic_video_library.png') no-repeat;
+    background-position: left center;
+}
+#content {
+    position:absolute;
+    top: 66px;
+    bottom: 129px;
+    width: 100%;
+    background: #e5e5e5;
+}
+
+#loginImg {
+    background: url('../Images/banner_login_be.jpg') no-repeat;
+    width: 248px;
+    min-height: 375px;
+}
+
+#article {
+    position: absolute;
+    left: calc(50% - 300px);
+    top: calc(50% - 187.5px);
+    width: 600px;
+}
+
+#login {
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    width: 352px;
+    min-height: 375px;
+}
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    font-weight: 100;
+    font-family: Tahoma, sans-serif !important;
+}
+
+.userName, .password {
+    border: solid 1px #abc1de;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    height: 36px;
+    margin: 6px 0 1px 0;
+    color: #000;
+}
+
+.submit {
+    width: 100%;
+    color: #fff;
+    background-color: #026b97;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.form {
+    padding: 6px 2px;
+    font-size: 13px;
+}
+
+#submit{
+    padding: 10px 0px;
+}
+
+#loginMShopKeeper {
+    color: #026b97;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+#signup a{
+    padding-top: 4px;
+    color: #337ab7;
+    font-size: 13px;
+}
+
+#support label {
+    padding-left: 24px;
+    font-family: Tahoma, sans-serif !important;
+}
+#guide a{
+    float: right;
+}
+
+#support a {
+    font-family: Tahoma, sans-serif !important;
+}
+
+#time {
+    word-spacing: -1px;
+    text-align: center;
+    font-size: 13px;
+    color: #757575;
+    margin-top: 10px;
+    font-family: Tahoma, sans-serif !important;
+}
